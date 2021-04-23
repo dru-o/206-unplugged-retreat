@@ -128,6 +128,14 @@ p {
 	font-size: .875em;
   line-height: 1.285em;
 }
+
+img{
+  width: 100%;
+}
+
+figure{
+  margin: 0;
+}
  
  
 address {
@@ -172,6 +180,14 @@ header nav{
   text-transform: uppercase;
 }
 
+header figure{
+  width:60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 header nav ul{
   display: flex;
   justify-content: space-around;
@@ -193,7 +209,7 @@ footer{
   text-align: center;
   flex-direction: column;
 }
-}
+
 
 footer .social-icons {
   display: flex;
@@ -233,6 +249,16 @@ footer .copyright{
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-area h1{
+  font-size: 2.25em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif; 
+  font-weight: 500; 
+  line-height: 1.2; 
 }
 
 /********aside ******/
@@ -277,6 +303,9 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url("../img/features.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
  .features .feature-items{
