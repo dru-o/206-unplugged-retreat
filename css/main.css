@@ -754,6 +754,7 @@ FAQ page
   
   .content-wrapper {
     max-width: 960px;
+    margin: 30px;
   }
 
   h2 {
@@ -773,7 +774,7 @@ FAQ page
   /* Hero */
   .hero-area h1 {
     font-size: 3.75em;
-    width: 60%;
+    width: 80%;
 }
 
   /* Aside */
